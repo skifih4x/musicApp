@@ -13,6 +13,8 @@
 		C966661E2876B1FC003CE2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C966661C2876B1FC003CE2D9 /* Main.storyboard */; };
 		C96666202876B1FD003CE2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C966661F2876B1FD003CE2D9 /* Assets.xcassets */; };
 		C96666232876B1FD003CE2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96666212876B1FD003CE2D9 /* LaunchScreen.storyboard */; };
+		C966662B2876B9BF003CE2D9 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966662A2876B9BF003CE2D9 /* CustomTabBarController.swift */; };
+		C966662D2876BA36003CE2D9 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = C966662C2876BA36003CE2D9 /* K.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C966661F2876B1FD003CE2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96666222876B1FD003CE2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96666242876B1FD003CE2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C966662A2876B9BF003CE2D9 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		C966662C2876BA36003CE2D9 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C966661F2876B1FD003CE2D9 /* Assets.xcassets */,
 				C96666212876B1FD003CE2D9 /* LaunchScreen.storyboard */,
 				C96666242876B1FD003CE2D9 /* Info.plist */,
+				C966662A2876B9BF003CE2D9 /* CustomTabBarController.swift */,
+				C966662C2876BA36003CE2D9 /* K.swift */,
 			);
 			path = musicApp;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C966661B2876B1FC003CE2D9 /* ViewController.swift in Sources */,
+				C966662D2876BA36003CE2D9 /* K.swift in Sources */,
 				C96666172876B1FC003CE2D9 /* AppDelegate.swift in Sources */,
+				C966662B2876B9BF003CE2D9 /* CustomTabBarController.swift in Sources */,
 				C96666192876B1FC003CE2D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
